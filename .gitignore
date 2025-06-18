@@ -9,7 +9,7 @@ venv/
 .venv/
 
 # SQLite DB and other database files
-#*.db
+*.db
 
 # Scraped/raw data folders (not needed in repo)
 downloaded_threads/
