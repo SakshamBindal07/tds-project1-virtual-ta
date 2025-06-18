@@ -44,9 +44,6 @@ class QueryResponse(BaseModel):
 
 # Initialize FastAPI app
 app = FastAPI(title="RAG Query API", description="API for querying the RAG knowledge base")
-@app.get("/")
-def read_root():
-    return {"message": "Welcome to the TDS Virtual TA API!"}
 
 # Add CORS middleware
 app.add_middleware(
