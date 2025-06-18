@@ -34,6 +34,13 @@ As part of the IIT Madras **Tools in Data Science** course, this project aims to
 **Request Body:** JSON containing the `question` and optional `image`
 **Response:** JSON containing `answer` and optional `links` with URLs and text
 
+## Live Demo
+
+[TDS Virtual TA on Render](https://tds-project1-virtual-ta-hbpl.onrender.com/docs)
+
+## Note
+The knowledge_base.db file (Database file which contains all the scraped data for the project) is automatically downloaded from Google Drive during deployment.
+
 ## 🧾 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
